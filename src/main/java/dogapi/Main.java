@@ -29,8 +29,7 @@ public class Main {
      * provided fetcher.
      * @param breed the name of the dog breed
      * @param breedFetcher the breedFetcher to use
-     * @return the number of sub breeds. Zero should be returned if there are no sub breeds
-     * returned by the fetcher
+     * @returnhe number of sub breeds. Zero should be returned if there are no sub breeds
      */
     public static int getNumberOfSubBreeds(String breed, BreedFetcher fetcher)
             throws BreedFetcher.BreedNotFoundException {
